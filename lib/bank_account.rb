@@ -14,7 +14,7 @@ end
    "Your balance is $#{@balance}." 
  end 
 def valid?
- 
+ status = "open"
 end 
    
 end
