@@ -32,5 +32,4 @@ def valid?
       @status = "reversed"
     end 
   end 
-
 end
