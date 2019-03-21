@@ -13,7 +13,7 @@ end
 
 def valid?
   @sender && @receiver ? true : false 
-  valid?
+
 end 
 
 end
