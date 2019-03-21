@@ -15,7 +15,7 @@ end
  end 
 def valid?
  condition = (status = "open" && balance >= 0)
- condition.inculde?
+ condition.inculde? {|status|status = "open"}
 end 
    
 end
