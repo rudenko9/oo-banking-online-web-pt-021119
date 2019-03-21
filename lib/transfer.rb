@@ -1,7 +1,7 @@
 class Transfer
 attr_accessor  :transfer, :receiver, :sender 
 
-def initialize(name)
+def initialize(transfer, receiver, sender)
   @name = name
 end 
 
