@@ -15,7 +15,7 @@ def valid?
   @sender.valid? && @receiver.valid? ?  true : false 
   end 
   def execute_transaction
-    @balance = balance - amount
+    @balance 
   end 
 
 end
