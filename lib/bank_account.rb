@@ -14,7 +14,7 @@ end
    "Your balance is $#{@balance}." 
  end 
 def valid?
- !!(condition status = "open" && balance > 0) 
+ !!(status = "open" && balance > 0) 
    end 
    
 end
