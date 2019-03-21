@@ -15,7 +15,7 @@ end
  end 
 def valid?
  if status = "open" && balance > 0
-   puts "true" 
+    "true" 
  end 
    end 
    
