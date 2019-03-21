@@ -11,6 +11,8 @@ def status
   @status
 end 
 
-
+def valid?
+  
+end 
 
 end
