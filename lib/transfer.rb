@@ -13,7 +13,6 @@ end
 
 def valid?
   @sender && @receiver ? true : false 
-  transfer
 end 
 
 end
