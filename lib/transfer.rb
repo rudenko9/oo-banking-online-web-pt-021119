@@ -30,7 +30,7 @@ def valid?
      @sender.balance += @amount
       @receiver.balance -= @amount
       @status = "reverssed"
-      
+    end 
   end 
 
 end
