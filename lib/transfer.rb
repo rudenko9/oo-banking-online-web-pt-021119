@@ -26,8 +26,9 @@ def valid?
   end 
   
   def reverse_transfer
-   if  @sender.balance -= @amount
-      @receiver.balance += @amount
+   if  @sender.balance += @amount
+      @receiver.balance -= @amount
+      
   end 
 
 end
