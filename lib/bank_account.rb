@@ -14,7 +14,8 @@ end
    "Your balance is $#{@balance}." 
  end 
 def valid?
- status = "open" && balance >= 0
+ condition = (status = "open" && balance >= 0)
+ condition.inculde?
 end 
    
 end
