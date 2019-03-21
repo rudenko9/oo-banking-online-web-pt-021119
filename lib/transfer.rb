@@ -14,6 +14,8 @@ end
 def valid?
   @sender.valid? && @receiver.valid? ?  true : false 
   end 
-  def 
+  def execute_transaction
+    
+  end 
 
 end
