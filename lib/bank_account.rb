@@ -8,6 +8,6 @@ def initialize(name)
 end
 
 def deposit(amount)
-  @balance**2
+  @balance = amount + @balance 
 end 
 end
