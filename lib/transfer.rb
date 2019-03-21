@@ -29,7 +29,7 @@ def valid?
     if @status == "complete"
      @sender.balance += @amount
       @receiver.balance -= @amount
-      @status = "reverssed"
+      @status = "reversed"
     end 
   end 
 
