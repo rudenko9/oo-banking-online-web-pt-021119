@@ -18,7 +18,7 @@ def valid?
 end 
 
 def close_account
-  
+  @status
 end 
    
 end
