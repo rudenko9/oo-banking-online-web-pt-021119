@@ -12,7 +12,7 @@ def status
 end 
 
 def valid?
-  @sender.valid? && @receiver.valid? ?  true : false 
+  (@sender && @receiver).valid? ?  true : false 
   end 
 
 end
