@@ -14,7 +14,7 @@ end
    "Your balance is $#{@balance}." 
  end 
 def self.valid?
- 
+ status = "open" && balance >! 0
 end 
    
 end
